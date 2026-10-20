@@ -1,0 +1,37 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local experiment outputs and serialized artifacts
+experiments/
+experiments/**/model/
+experiments/**/*.pth
+experiments/**/*.pkl
+experiments/**/*.pickle
+experiments/**/train.pkl
+experiments/**/eval-*.pkl
+experiments/**/figure/
+
+# Local/editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+tempCodeRunnerFile.py
+*.pdf

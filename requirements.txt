@@ -1,0 +1,6 @@
+# Direct imports used by sim_naive.py, RARL, and gym_reachability.
+# The source uses the legacy four-return Gym API.
+gym<0.26
+matplotlib
+numpy
+torch
