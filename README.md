@@ -103,6 +103,18 @@ The checked-in image in `docs/images/` is a lightweight copy of an existing expe
 
 ![Historical evaluation summary](docs/images/metrics-summary.png)
 
+## Time-varying learned maps
+
+The main focus of this project is dynamic reach-avoid learning. Obstacles and the target move with time, while the observation includes `[x, y, t]`. The figures below show the motion used by an existing experiment, the learned value/policy map after training, and value-function slices at different times.
+
+![Time-varying obstacle and target motion](docs/images/time-varying-zones.png)
+
+![Learned value function, rollout policy, and action map](docs/images/learned-value-rollout-action.png)
+
+![Learned value function across time slices](docs/images/learned-value-time-slices.png)
+
+These are selected historical experiment outputs aligned with the accompanying thesis figures. They are included for presentation and qualitative inspection; they are not presented as a newly reproduced benchmark.
+
 One existing evaluation report is retained locally and records a smoke evaluation of checkpoint `Q-70.pth` with 5 random and 4,961 grid rollouts. Its numbers are historical artifacts, not a new reproducibility claim.
 
 ## Thesis context
