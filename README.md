@@ -111,7 +111,6 @@ The main focus of this project is dynamic reach-avoid learning. Obstacles and th
 
 ![Learned value function, rollout policy, and action map](docs/images/learned-value-rollout-action.png)
 
-![Learned value function across time slices](docs/images/learned-value-time-slices.png)
 
 These are selected historical experiment outputs aligned with the accompanying thesis figures. They are included for presentation and qualitative inspection; they are not presented as a newly reproduced benchmark.
 
